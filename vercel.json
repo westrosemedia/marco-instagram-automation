@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "FB_APP_ID": "@fb_app_id", 
+    "FB_APP_SECRET": "@fb_app_secret",
+    "IG_USER_ID": "@ig_user_id",
+    "IG_ACCESS_TOKEN": "@ig_access_token",
+    "NOTION_SECRET": "@notion_secret",
+    "NOTION_DB_ID": "@notion_db_id",
+    "WEBHOOK_VERIFY_TOKEN": "@webhook_verify_token"
+  }
+}

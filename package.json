@@ -1,0 +1,39 @@
+{
+  "name": "instagram-automation",
+  "version": "1.0.0",
+  "description": "Instagram automation tool with AI-powered engagement",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "instagram",
+    "automation",
+    "ai",
+    "social-media"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@notionhq/client": "^5.1.0",
+    "axios": "^1.12.2",
+    "date-fns": "^4.1.0",
+    "next": "^15.5.4",
+    "openai": "^6.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "@types/react": "^19.1.17",
+    "@types/react-dom": "^19.1.11",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.4",
+    "typescript": "^5.9.3"
+  }
+}
